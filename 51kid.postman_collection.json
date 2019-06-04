@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "f6f4a8de-b039-4fb6-b878-9ee491b346c9",
-		"name": "51kid",
+		"_postman_id": "758429bc-bb13-4ff0-a16d-6117bbd6b14f",
+		"name": "app",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -261,27 +261,28 @@
 								"header": [
 									{
 										"key": "Cookie",
-										"value": "uuid=871caeba-2ed1-4745-9604-2ee6ec71828c; _ga=GA1.2.1820326153.1558504624; global=d75199a4-963a-4230-9301-a2c55eee2bbf; ust_v=1; PHPSESSID=j9337gugl861754f4iqm6u62u3; SpMLdaPx_uuid=5668299448; tms_training_sso=dGVhY2hlcklkPTEzODcmZW1haWw9d2FuZ3dlbmp1YW4%3D.3275974CEEEC6739CB8927FA584F35BD; UM_distinctid=16ae3f6dae70-0f0e1c4bd8f4ee-541f3415-e1000-16ae3f6daea12f; from_url=sso.51talk.com%2Cmypage.51talk.com%2Ctmp.51talk.com; _gid=GA1.2.47049015.1559269374; servChkFlag=sso; tea_ust=IH%2BT2yQce%2FWe7Pk7UeIzZQyEt%2BQrJCZyI%2BtxLigUdWKZhXFWXQ5QxudJsvoJmHM4gt0xojeA%2Fow4PFFzhVnmO9ocgMgsjYaB; tea_usg=MC0CFQC02HeckEPOsZbMJiqq1wRfGrzgdgIUNUNyW48zYhlfc62cu0zzK4bZ%2FGw%3D; SpMLdaPx_pvid=1559270831668; 51talkpass=I4w6OCPV15CkX9nL0X*pfJq5madbRcSM8vgTw6tJ0hZJpwQ15mcCqSQ6LbDMYjnRp-cBTDHqIozElEGROCuFbw==; 51talkpassuser=wangping",
 										"type": "text",
+										"value": "uuid=f0f81540-8ba7-48a2-8ef3-ca6f1434ee6c; _ga=GA1.2.1251960264.1555915346; global=e7cdb102-b7e5-4a8c-afea-e9ab7fc0add8; SpMLdaPx_uuid=8541582576; 51talkpassuser=wangping; PHPSESSID=h1ri00ta3sjupu7irugghbffp3; Hm_lvt_cd5cd03181b14b3269f31c9cc8fe277f=1556180369; Hm_lvt_12bb113d16ba4f5e8689b4a441a1d6a2=1556180369; user_ust=I%2B0RRTRkE8PfoQP%2FjVFfH4DU3xc4%2FQIJe2mmRvbmZpcQlykp2RWu6eNaLKmEk2CLiqLNmbSGmwD02fzFfImde5J5W%2BnTm4jj4FzH; user_usg=MCwCFBp3xearkSeBDDTDybFiftOe7O2cAhQjXMq5cyhXd4cZcIaB6k3cEuNBVQ%3D%3D; ust_v=1; UM_distinctid=16a5862e755da-0c4a7db9f1140b-541f3415-e1000-16a5862e7582aa; Hm_lpvt_cd5cd03181b14b3269f31c9cc8fe277f=1556263148; Hm_lpvt_12bb113d16ba4f5e8689b4a441a1d6a2=1556263148; SpMLdaPx_poid=9; tms_training_sso=dGVhY2hlcklkPTEmZW1haWw9YWRtaW4%3D.21DDFE185D5C62EF230A8EB93EC06A5F; from_url=sso.51talk.com%2Cmypage.51talk.com%2Ctmp.51talk.com%2Cbbs.51talk.com; SpMLdaPx_pvid=1556263434600",
 										"disabled": true
 									},
 									{
 										"key": "Content-Type",
+										"name": "Content-Type",
 										"value": "application/x-www-form-urlencoded",
 										"type": "text"
 									}
 								],
 								"body": {
-									"mode": "urlencoded",
-									"urlencoded": [
+									"mode": "formdata",
+									"formdata": [
 										{
 											"key": "username",
-											"value": "jiangyan",
+											"value": "liujiao",
 											"type": "text"
 										},
 										{
 											"key": "password",
-											"value": "123456",
+											"value": "liujiao2008",
 											"type": "text"
 										}
 									]
@@ -351,14 +352,14 @@
 								"method": "GET",
 								"header": [
 									{
-										"key": "Cookies",
+										"key": "Cookie",
 										"type": "text",
-										"value": "uuid=871caeba-2ed1-4745-9604-2ee6ec71828c; _ga=GA1.2.1820326153.1558504624; global=d75199a4-963a-4230-9301-a2c55eee2bbf; ust_v=1; PHPSESSID=j9337gugl861754f4iqm6u62u3; SpMLdaPx_uuid=5668299448; tms_training_sso=dGVhY2hlcklkPTEzODcmZW1haWw9d2FuZ3dlbmp1YW4%3D.3275974CEEEC6739CB8927FA584F35BD; UM_distinctid=16ae3f6dae70-0f0e1c4bd8f4ee-541f3415-e1000-16ae3f6daea12f; from_url=sso.51talk.com%2Cmypage.51talk.com%2Ctmp.51talk.com; _gid=GA1.2.47049015.1559269374; servChkFlag=sso; tea_ust=IH%2BT2yQce%2FWe7Pk7UeIzZQyEt%2BQrJCZyI%2BtxLigUdWKZhXFWXQ5QxudJsvoJmHM4gt0xojeA%2Fow4PFFzhVnmO9ocgMgsjYaB; tea_usg=MC0CFQC02HeckEPOsZbMJiqq1wRfGrzgdgIUNUNyW48zYhlfc62cu0zzK4bZ%2FGw%3D; SpMLdaPx_pvid=1559270831668; 51talkpass=I4w6OCPV15CkX9nL0X*pfJq5madbRcSM8vgTw6tJ0hZJpwQ15mcCqSQ6LbDMYjnRp-cBTDHqIozElEGROCuFbw==; 51talkpassuser=wangping\n\n",
+										"value": "uuid=f0f81540-8ba7-48a2-8ef3-ca6f1434ee6c; _ga=GA1.2.1251960264.1555915346; global=e7cdb102-b7e5-4a8c-afea-e9ab7fc0add8; SpMLdaPx_uuid=8541582576; 51talkpassuser=wangping; PHPSESSID=h1ri00ta3sjupu7irugghbffp3; Hm_lvt_cd5cd03181b14b3269f31c9cc8fe277f=1556180369; Hm_lvt_12bb113d16ba4f5e8689b4a441a1d6a2=1556180369; user_ust=I%2B0RRTRkE8PfoQP%2FjVFfH4DU3xc4%2FQIJe2mmRvbmZpcQlykp2RWu6eNaLKmEk2CLiqLNmbSGmwD02fzFfImde5J5W%2BnTm4jj4FzH; user_usg=MCwCFBp3xearkSeBDDTDybFiftOe7O2cAhQjXMq5cyhXd4cZcIaB6k3cEuNBVQ%3D%3D; ust_v=1; UM_distinctid=16a5862e755da-0c4a7db9f1140b-541f3415-e1000-16a5862e7582aa; Hm_lpvt_cd5cd03181b14b3269f31c9cc8fe277f=1556263148; Hm_lpvt_12bb113d16ba4f5e8689b4a441a1d6a2=1556263148; SpMLdaPx_poid=9; tms_training_sso=dGVhY2hlcklkPTEmZW1haWw9YWRtaW4%3D.21DDFE185D5C62EF230A8EB93EC06A5F; from_url=sso.51talk.com%2Cmypage.51talk.com%2Ctmp.51talk.com%2Cbbs.51talk.com; SpMLdaPx_pvid=1556263434600",
 										"disabled": true
 									}
 								],
 								"url": {
-									"raw": "http://sms.51talk.com/Admin/SendSms/index?send_time=&mobile={{regUsername}}&sms_id=",
+									"raw": "http://sms.51talk.com/Admin/SendSms/index?mobile={{regUsername}}&sms_id=&send_time=",
 									"protocol": "http",
 									"host": [
 										"sms",
@@ -372,15 +373,15 @@
 									],
 									"query": [
 										{
-											"key": "send_time",
-											"value": ""
-										},
-										{
 											"key": "mobile",
 											"value": "{{regUsername}}"
 										},
 										{
 											"key": "sms_id",
+											"value": ""
+										},
+										{
+											"key": "send_time",
 											"value": ""
 										}
 									]
@@ -2493,10 +2494,7 @@
 									"script": {
 										"id": "825e0172-34ec-4bc3-be24-69a8a316a858",
 										"exec": [
-											"// 密码加密",
-											"// pm.environment.set(\"password\", CryptoJS.MD5(data.1v1Password).toString());",
-											"",
-											"pm.environment.set(\"password\",CryptoJS.MD5(data.buyPassword).toString());"
+											""
 										],
 										"type": "text/javascript"
 									}
@@ -2537,42 +2535,22 @@
 									}
 								],
 								"body": {
-									"mode": "urlencoded",
-									"urlencoded": [
+									"mode": "formdata",
+									"formdata": [
 										{
 											"key": "username",
-											"value": "{{buyUsername}}",
+											"value": "{{username}}",
 											"type": "text"
 										},
 										{
 											"key": "password",
 											"value": "{{password}}",
 											"type": "text"
-										},
-										{
-											"key": "token",
-											"value": "{{client_id}}",
-											"type": "text"
-										},
-										{
-											"key": "tsign",
-											"value": "{{tsign}}",
-											"type": "text"
-										},
-										{
-											"key": "ignoreUserId",
-											"value": "1",
-											"type": "text"
-										},
-										{
-											"key": "from",
-											"value": "iosKid",
-											"type": "text"
 										}
 									]
 								},
 								"url": {
-									"raw": "{{host}}/User/userLogin?phoneType={{phoneType}}&deviceType={{deviceType}}&version={{version}}&deviceId={{deviceId}}&client_id={{client_id}}&systemVer={{systemVer}}&channel={{channel}}",
+									"raw": "{{host}}/User/userLogin?tsign={{tsign}}&talk_token={{talk_token}}&phoneType={{phoneType}}&deviceType={{deviceType}}&version={{version}}&deviceId={{deviceId}}",
 									"host": [
 										"{{host}}"
 									],
@@ -2581,6 +2559,14 @@
 										"userLogin"
 									],
 									"query": [
+										{
+											"key": "tsign",
+											"value": "{{tsign}}"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talk_token}}"
+										},
 										{
 											"key": "phoneType",
 											"value": "{{phoneType}}"
@@ -2596,18 +2582,6 @@
 										{
 											"key": "deviceId",
 											"value": "{{deviceId}}"
-										},
-										{
-											"key": "client_id",
-											"value": "{{client_id}}"
-										},
-										{
-											"key": "systemVer",
-											"value": "{{systemVer}}"
-										},
-										{
-											"key": "channel",
-											"value": "{{channel}}"
 										}
 									]
 								}
@@ -3296,9 +3270,7 @@
 											"// 组装日期，如果月份、日期小于10，则补字符串‘0’",
 											"var oTime = oYear +'-'+ getNum(oMonth) +'-'+ getNum(oDay);",
 											"",
-											"pm.environment.set(\"date\", oTime);",
-											"",
-											""
+											"pm.environment.set(\"date\", oTime);"
 										],
 										"type": "text/javascript"
 									}
@@ -3604,7 +3576,7 @@
 											"",
 											"var sList =jsonData.res.list",
 											"",
-											"for (let i =sList.length -1; i >=0; i--){",
+											"for (let i =sList.length -1; i >=0; i++){",
 											"    if (sList[i].time !== \"\"){",
 											"        // 设置环境变量，日期、时间点，供按名称搜索接口使用",
 											"        // var myDate = pm.environment.set(\"myDate\", sList[i].date);",
@@ -3613,17 +3585,8 @@
 											"         * 注意， 此处设置环境变量【code】，注意清除 ",
 											"         * ******************************************",
 											"         * *****************************************/",
-											"         // 供按名称搜索，断言使用",
-											"         ",
-											"         ",
-											"         var dateObj = new Date(sList[i].date);",
-											"         var date = getNum(dateObj.getDate())",
-											"         ",
-											"         var timeList =  (sList[i].time).split(',')",
-											"         var timeLength = timeList.length;",
-											"         ",
-											"        pm.environment.set(\"timeLen\", timeLength);",
-											"        pm.environment.set(\"bookDate\", date);",
+											"        pm.environment.set(\"bookTime\", sList[i].time);",
+											"        pm.environment.set(\"bookDate\", sList[i].date);",
 											"        ",
 											"        tests['exists date'] =true;",
 											"        break;",
@@ -3636,14 +3599,6 @@
 											"    }",
 											"}",
 											"",
-											"function getNum(num){",
-											"    if (parseInt(num) < 10){",
-											"        num = '0' + num;",
-											"    }else{",
-											"        num = num +''",
-											"    }",
-											"    return num;",
-											"}",
 											""
 										],
 										"type": "text/javascript"
@@ -3766,19 +3721,19 @@
 											"    pm.expect(jsonData.res.list[0].teaID).to.eql(teaId);",
 											"});",
 											"",
-											"var myDate = pm.environment.get(\"bookDate\"); ",
-											"var myTime = pm.environment.get(\"timeLen\"); ",
+											"var date = pm.environment.get(\"bookDate\"); ",
+											"判断今天（日期）是否是今天",
+											"var day = date.split('-')[2]; // 获取日期里面的天数",
 											"",
-											"var tList = jsonData.res.list[0].timeList;",
-											"for (let i = tList.length -1; i >=0; i--){",
-											"    if (tList[i].date === myDate && parseInt(tList[i].time) === myTime){",
+											"var time = pm.environment.get(\"bookTime\"); ",
+											"",
+											"var tList = jsonDate.res.list[0].timeList",
+											"for (let i = 0; i < tList.length; i++){",
+											"    if (tList[i].date === day && tList[i].time === 1){",
 											"        tests[\"get the date and time\"] = true;",
-											"        break;",
 											"    }else{",
-											"        if (i === 0){",
+											"        if (i === tList.length-1){",
 											"            tests[\"get the date and time\"] =false;",
-											"        }else{",
-											"            continue;",
 											"        }",
 											"    }",
 											"}",
@@ -3900,141 +3855,7 @@
 					"name": "预约以及展示",
 					"item": [
 						{
-							"name": "1v1课程确认预约",
-							"event": [
-								{
-									"listen": "prerequest",
-									"script": {
-										"id": "58fbc148-5eea-4541-8555-2eb66b4219e9",
-										"exec": [
-											"var date = pm.environment.get(\"date\");",
-											"var time = date +\":48\";",
-											"",
-											"pm.environment.set(\"timeList\", time);// var timeFormat = time.split(\":\")[0];",
-											"// var time = (parseInt(timeFormat)+1) *2;"
-										],
-										"type": "text/javascript"
-									}
-								},
-								{
-									"listen": "test",
-									"script": {
-										"id": "642324d1-ee47-4430-bb82-76846a200a59",
-										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});",
-											"",
-											"",
-											"var jsonData = pm.response.json();",
-											"pm.test(\"code is 1\", function () {",
-											"    pm.expect(jsonData.code).to.eql(1);",
-											"});",
-											"",
-											"const teaId = pm.environment.get(\"tid\");",
-											"pm.test(\"老师信息正常\", function () {",
-											"    const jsonData = pm.response.json();",
-											"    pm.expect(jsonData.res.teaID).to.eql(parseInt(teaId));",
-											"});",
-											"",
-											"pm.test(\"选择教材成功\", function () {",
-											"    pm.expect(jsonData.res.list[0].coursewareSelectedSuccessful).to.eql(1);",
-											"    // 设置环境变量 ",
-											"    pm.environment.set(\"courseId\", jsonData.res.list[0].courseId);",
-											"});",
-											"",
-											"const date = pm.environment.get(\"date\"); ",
-											"pm.test(\"日期时间正确\", function () {",
-											"    pm.expect(jsonData.res.list[0].date).to.eql(date);",
-											"    pm.expect(jsonData.res.list[0].timeId).to.eql(\"48\");",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"name": "Content-Type",
-										"type": "text",
-										"value": "application/x-www-form-urlencoded"
-									}
-								],
-								"body": {
-									"mode": "urlencoded",
-									"urlencoded": [
-										{
-											"key": "userId",
-											"value": "{{userId}}",
-											"type": "text"
-										},
-										{
-											"key": "timeList",
-											"value": "{{timeList}}",
-											"type": "text"
-										},
-										{
-											"key": "teacherId",
-											"value": "{{tid}}",
-											"type": "text"
-										},
-										{
-											"key": "talk_token",
-											"value": "{{talk_token}}",
-											"type": "text"
-										},
-										{
-											"key": "tsign",
-											"value": "{{tsign}}",
-											"type": "text"
-										}
-									]
-								},
-								"url": {
-									"raw": "{{host}}/Reserve/confirmReserveBatch?phoneType={{phoneType}}&systemVer={{systemVer}}&version={{version}}&channel={{channel}}&deviceType={{deviceType}}&deviceId={{deviceId}}",
-									"host": [
-										"{{host}}"
-									],
-									"path": [
-										"Reserve",
-										"confirmReserveBatch"
-									],
-									"query": [
-										{
-											"key": "phoneType",
-											"value": "{{phoneType}}"
-										},
-										{
-											"key": "systemVer",
-											"value": "{{systemVer}}"
-										},
-										{
-											"key": "version",
-											"value": "{{version}}"
-										},
-										{
-											"key": "channel",
-											"value": "{{channel}}"
-										},
-										{
-											"key": "deviceType",
-											"value": "{{deviceType}}"
-										},
-										{
-											"key": "deviceId",
-											"value": "{{deviceId}}"
-										}
-									]
-								},
-								"description": "尽量预约远一点，可以取消（取最后一天的最后日期22:30）"
-							},
-							"response": []
-						},
-						{
-							"name": "（修改中）1v1课程预约成功",
+							"name": "1v1课程预约",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -4055,7 +3876,6 @@
 											"    pm.response.to.have.status(200);",
 											"});",
 											"",
-											"",
 											"var jsonData = pm.response.json();",
 											"pm.test(\"code is 1\", function () {",
 											"    pm.expect(jsonData.code).to.eql(411);",
@@ -4074,6 +3894,7 @@
 											"     * *****************************************/",
 											"     pm.environment.set(\"appointId\",jsonData.res.list[0].appointId);",
 											"}",
+											"",
 											"",
 											" /* ==========================================",
 											" ============================================",
@@ -4108,7 +3929,7 @@
 										},
 										{
 											"key": "timeList",
-											"value": "{{timeList}}",
+											"value": "{{time}}",
 											"type": "text"
 										},
 										{
@@ -4125,42 +3946,17 @@
 											"key": "tsign",
 											"value": "{{tsign}}",
 											"type": "text"
-										},
-										{
-											"key": "date",
-											"value": "{{date}}",
-											"type": "text"
-										},
-										{
-											"key": "time",
-											"value": "48",
-											"type": "text"
-										},
-										{
-											"key": "teachType",
-											"value": "51talkac",
-											"type": "text"
-										},
-										{
-											"key": "source",
-											"value": "pt",
-											"type": "text"
-										},
-										{
-											"key": "fromAppointType",
-											"value": "iosKid",
-											"type": "text"
 										}
 									]
 								},
 								"url": {
-									"raw": "{{host}}/Reserve/doReserve?phoneType={{phoneType}}&systemVer={{systemVer}}&version={{version}}&channel={{channel}}&deviceType={{deviceType}}&deviceId={{deviceId}}",
+									"raw": "{{host}}/Reserve/confirmReserveBatch?phoneType={{phoneType}}&systemVer={{systemVer}}&version={{version}}&channel={{channel}}&deviceType={{deviceType}}&deviceId={{deviceId}}",
 									"host": [
 										"{{host}}"
 									],
 									"path": [
 										"Reserve",
-										"doReserve"
+										"confirmReserveBatch"
 									],
 									"query": [
 										{
@@ -5840,6 +5636,2706 @@
 					}
 				}
 			]
+		},
+		{
+			"name": "公开课",
+			"item": [
+				{
+					"name": "付费公开课",
+					"item": [
+						{
+							"name": "用户登录",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "002cf61d-5917-41d5-90ff-6ed1d51f56b1",
+										"exec": [
+											"// 密码加密",
+											"var password=pm.environment.get('password');",
+											"pm.environment.set(\"password1\",CryptoJS.MD5(password).toString());",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"id": "dbb65831-5a46-40dc-a4a2-3cead0002dc4",
+										"exec": [
+											"",
+											"//返回成功，返回码是200",
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"jsonData=pm.response.json();",
+											"",
+											"//验证返回的code是1",
+											"pm.test(\"返回的code是1\", function () {",
+											"    pm.expect(jsonData.code).to.eql(1);",
+											"    //将token和学生ID写到环境变量",
+											"    pm.environment.set(\"talkToken\", jsonData.res.talkToken);",
+											"    pm.environment.set(\"userId\",jsonData.res.userId);",
+											"});",
+											"",
+											"",
+											"//清除密码",
+											"pm.environment.unset(\"password1\");"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "from",
+											"value": "{{from}}",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "{{password1}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "text"
+										},
+										{
+											"key": "version",
+											"value": "{{version}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/User/userLogin?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"User",
+										"userLogin"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "获取公开课列表",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "187a2cff-7e98-42b6-88e2-c9217eac4c66",
+										"exec": [
+											"//返回状态码是200",
+											"pm.test(\"状态码是200\",function()",
+											"{",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"jsonData=pm.response.json();",
+											"//返回code是1",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).to.eql(1); ",
+											"});",
+											"",
+											"pm.test(\"返回提示\",function()",
+											"{",
+											"    pm.expect(pm.response.text()).to.include(\"remindMsg\") ",
+											"   ",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/Bbs/schoolIndex?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"Bbs",
+										"schoolIndex"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "筛选付费公开课",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "4986a1e4-7565-4e17-93f4-71371f8ad7e2",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"",
+											"jsonData = pm.response.json();",
+											"//返回成功后获取值",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"    pm.expect(jsonData.code).to.eql(1);",
+											"    //获取最后一节公开课id",
+											"    var OBClass=jsonData.res.openClass.list;",
+											"    index=OBClass.length;",
+											"    pm.environment.set(\"openClassId\",OBClass[index-1].id);",
+											"    pm.environment.set(\"teaId\",OBClass[index-1].teaId);",
+											"    pm.environment.set(\"time\",OBClass[index-1].time);",
+											"   ",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "cost",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "date",
+											"value": "{{date}}",
+											"type": "text"
+										},
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}\t",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/Bbs/schoolIndex?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"Bbs",
+										"schoolIndex"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "筛选免费公开课",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/x-www-form-urlencoded",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "appkey",
+													"value": "{{appkey}}",
+													"type": "text"
+												},
+												{
+													"key": "client_id",
+													"value": "{{client_id}}",
+													"type": "text"
+												},
+												{
+													"key": "cost",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "date",
+													"value": "{{date}}",
+													"type": "text"
+												},
+												{
+													"key": "level",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "talk_token",
+													"value": "{{talkToken}}",
+													"type": "text"
+												},
+												{
+													"key": "teacher",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "timestamp",
+													"value": "{{timestamp}}",
+													"type": "text"
+												},
+												{
+													"key": "tsign",
+													"value": "{{tsign}}\t",
+													"type": "text"
+												},
+												{
+													"key": "type",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "userId",
+													"value": "{{userId}}",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{host}}/Bbs/schoolIndex?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"Bbs",
+												"schoolIndex"
+											],
+											"query": [
+												{
+													"key": "version",
+													"value": "{{version}}"
+												},
+												{
+													"key": "channel",
+													"value": "{{channel}}"
+												},
+												{
+													"key": "systemVer",
+													"value": "{{systemVer}}"
+												},
+												{
+													"key": "deviceId",
+													"value": "{{deviceId}}"
+												},
+												{
+													"key": "deviceType",
+													"value": "{{deviceType}}"
+												},
+												{
+													"key": "phoneType",
+													"value": "{{phoneType}}"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "JSON",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 30 May 2019 07:17:18 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "text/html; charset=utf-8"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "Expires",
+											"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+										},
+										{
+											"key": "Pragma",
+											"value": "no-cache"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										}
+									],
+									"cookie": [],
+									"body": "{\"code\":\"0\",\"res\":{\"remindMsg\":\"\\u975e\\u6cd5\\u8bbf\\u95ee\"}}"
+								},
+								{
+									"name": "筛选免费公开课",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/x-www-form-urlencoded",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "appkey",
+													"value": "{{appkey}}",
+													"type": "text"
+												},
+												{
+													"key": "client_id",
+													"value": "{{client_id}}",
+													"type": "text"
+												},
+												{
+													"key": "cost",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "date",
+													"value": "{{date}}",
+													"type": "text"
+												},
+												{
+													"key": "level",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "talk_token",
+													"value": "{{talkToken}}",
+													"type": "text"
+												},
+												{
+													"key": "teacher",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "timestamp",
+													"value": "{{timestamp}}",
+													"type": "text"
+												},
+												{
+													"key": "tsign",
+													"value": "{{tsign}}\t",
+													"type": "text"
+												},
+												{
+													"key": "type",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "userId",
+													"value": "{{userId}}",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{host}}/Bbs/schoolIndex?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"Bbs",
+												"schoolIndex"
+											],
+											"query": [
+												{
+													"key": "version",
+													"value": "{{version}}"
+												},
+												{
+													"key": "channel",
+													"value": "{{channel}}"
+												},
+												{
+													"key": "systemVer",
+													"value": "{{systemVer}}"
+												},
+												{
+													"key": "deviceId",
+													"value": "{{deviceId}}"
+												},
+												{
+													"key": "deviceType",
+													"value": "{{deviceType}}"
+												},
+												{
+													"key": "phoneType",
+													"value": "{{phoneType}}"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "JSON",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 30 May 2019 08:04:37 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "text/html; charset=utf-8"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "Expires",
+											"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+										},
+										{
+											"key": "Pragma",
+											"value": "no-cache"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										}
+									],
+									"cookie": [],
+									"body": "{\"code\":\"0\",\"res\":{\"remindMsg\":\"\\u975e\\u6cd5\\u8bbf\\u95ee\"}}"
+								}
+							]
+						},
+						{
+							"name": "预约公开课",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "ba7959d1-1dab-4097-8c1f-0f4b99be5a9e",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"//返回code是1,预约成功",
+											"jsonData=pm.response.json();",
+											"",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).eql(1);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "classId",
+											"value": "{{openClassId}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/OpenClass/follow?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"OpenClass",
+										"follow"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "首页验证课程信息",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "ba7959d1-1dab-4097-8c1f-0f4b99be5a9e",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"//返回code是1,预约成功",
+											"jsonData=pm.response.json();",
+											"",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).eql(1);",
+											"});",
+											"",
+											"//验证信息",
+											"pm.test(\"验证课程ID\",function()",
+											"{",
+											"    classId=pm.environment.get(\"openClassId\");",
+											"    pm.expect(jsonData.res.list[1].open_class_list[0].appointId.toString()).eql(classId);",
+											"});",
+											"",
+											"pm.test(\"验证老师ID\",function()",
+											"{",
+											"    teaId=pm.environment.get(\"teaId\");",
+											"    pm.expect(jsonData.res.list[1].open_class_list[0].teacherID.toString()).eql(teaId);",
+											"});",
+											"",
+											"pm.test(\"验证上课时间\",function()",
+											"{",
+											"    time=pm.environment.get(\"time\");",
+											"    pm.expect(jsonData.res.list[1].open_class_list[0].startTimestamp).eql(Number(time));",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/Experience/schedule?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"Experience",
+										"schedule"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "公开课详情",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "eb474173-9bcc-4418-983f-7f39a2a29242",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"//返回code是1,预约成功",
+											"jsonData=pm.response.json();",
+											"",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).eql(1);",
+											"});",
+											"",
+											"pm.test(\"验证教室ID\",function()",
+											"{",
+											"    classId=pm.environment.get(\"openClassId\");",
+											"    pm.expect(jsonData.res.classInfo.id).eql(classId);",
+											"});",
+											"",
+											"pm.test(\"验证老师ID\",function()",
+											"{",
+											"    teaId=pm.environment.get(\"teaId\");",
+											"    pm.expect(jsonData.res.classInfo.teaId).eql(teaId);",
+											"});",
+											"",
+											"pm.test(\"验证上课时间\",function()",
+											"{",
+											"    time=pm.environment.get(\"time\");",
+											"    pm.expect(jsonData.res.classInfo.startTime).eql(time);",
+											"});",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "classId",
+											"value": "{{openClassId}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/OpenClass/classDetail?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"OpenClass",
+										"classDetail"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "公开课老师详情",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "eb474173-9bcc-4418-983f-7f39a2a29242",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"//返回code是1,预约成功",
+											"jsonData=pm.response.json();",
+											"",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).eql(1);",
+											"});",
+											"",
+											"pm.test(\"验证老师ID\",function()",
+											"{",
+											"    teaId=pm.environment.get(\"teaId\");",
+											"    pm.expect(jsonData.res.teaInfo.teaId).eql(Number(teaId));",
+											"});",
+											"",
+											"",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "classId",
+											"value": "{{openClassId}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "teaId",
+											"value": "{{teaId}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/OpenClass/classTeacher?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"OpenClass",
+										"classTeacher"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "取消公开课",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "eb474173-9bcc-4418-983f-7f39a2a29242",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"",
+											"jsonData=pm.response.json();",
+											"",
+											"//返回code是1,取消成功",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).eql(1);",
+											"});",
+											"",
+											"//释放生成的临时变量",
+											"pm.environment.unset(\"openClassId\");",
+											"pm.environment.unset(\"teaId\");",
+											"pm.environment.unset(\"time\");",
+											"",
+											"",
+											"",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "classId",
+											"value": "{{openClassId}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/OpenClass/unfollow?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"OpenClass",
+										"unfollow"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "免费公开课",
+					"item": [
+						{
+							"name": "用户登录",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "002cf61d-5917-41d5-90ff-6ed1d51f56b1",
+										"exec": [
+											"// 密码加密",
+											"var password=pm.environment.get('password');",
+											"pm.environment.set(\"password1\",CryptoJS.MD5(password).toString());",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"id": "dbb65831-5a46-40dc-a4a2-3cead0002dc4",
+										"exec": [
+											"",
+											"//返回成功，返回码是200",
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"jsonData=pm.response.json();",
+											"",
+											"//验证返回的code是1",
+											"pm.test(\"返回的code是1\", function () {",
+											"    pm.expect(jsonData.code).to.eql(1);",
+											"    //将token和学生ID写到环境变量",
+											"    pm.environment.set(\"talkToken\", jsonData.res.talkToken);",
+											"    pm.environment.set(\"userId\",jsonData.res.userId);",
+											"});",
+											"",
+											"",
+											"//清除密码",
+											"pm.environment.unset(\"password1\");"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "from",
+											"value": "{{from}}",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "{{password1}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "text"
+										},
+										{
+											"key": "version",
+											"value": "{{version}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/User/userLogin?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"User",
+										"userLogin"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "获取公开课列表",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "187a2cff-7e98-42b6-88e2-c9217eac4c66",
+										"exec": [
+											"//返回状态码是200",
+											"pm.test(\"状态码是200\",function()",
+											"{",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"jsonData=pm.response.json();",
+											"//返回code是1",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).to.eql(1); ",
+											"});",
+											"",
+											"pm.test(\"返回提示\",function()",
+											"{",
+											"    pm.expect(pm.response.text()).to.include(\"remindMsg\") ",
+											"   ",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/Bbs/schoolIndex?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"Bbs",
+										"schoolIndex"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "筛选免费公开课",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "4986a1e4-7565-4e17-93f4-71371f8ad7e2",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"",
+											"jsonData = pm.response.json();",
+											"//返回成功后获取值",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"    pm.expect(jsonData.code).to.eql(1);",
+											"    //获取最后一节公开课id",
+											"    var OBClass=jsonData.res.openClass.list;",
+											"    index=OBClass.length;",
+											"    pm.environment.set(\"openClassId\",OBClass[index-1].id);",
+											"    pm.environment.set(\"teaId\",OBClass[index-1].teaId);",
+											"    pm.environment.set(\"time\",OBClass[index-1].time);",
+											"   ",
+											"});",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "cost",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "date",
+											"value": "{{date}}",
+											"type": "text"
+										},
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}\t",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/Bbs/schoolIndex?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"Bbs",
+										"schoolIndex"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "筛选免费公开课",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/x-www-form-urlencoded",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "appkey",
+													"value": "{{appkey}}",
+													"type": "text"
+												},
+												{
+													"key": "client_id",
+													"value": "{{client_id}}",
+													"type": "text"
+												},
+												{
+													"key": "cost",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "date",
+													"value": "{{date}}",
+													"type": "text"
+												},
+												{
+													"key": "level",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "talk_token",
+													"value": "{{talkToken}}",
+													"type": "text"
+												},
+												{
+													"key": "teacher",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "timestamp",
+													"value": "{{timestamp}}",
+													"type": "text"
+												},
+												{
+													"key": "tsign",
+													"value": "{{tsign}}\t",
+													"type": "text"
+												},
+												{
+													"key": "type",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "userId",
+													"value": "{{userId}}",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{host}}/Bbs/schoolIndex?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"Bbs",
+												"schoolIndex"
+											],
+											"query": [
+												{
+													"key": "version",
+													"value": "{{version}}"
+												},
+												{
+													"key": "channel",
+													"value": "{{channel}}"
+												},
+												{
+													"key": "systemVer",
+													"value": "{{systemVer}}"
+												},
+												{
+													"key": "deviceId",
+													"value": "{{deviceId}}"
+												},
+												{
+													"key": "deviceType",
+													"value": "{{deviceType}}"
+												},
+												{
+													"key": "phoneType",
+													"value": "{{phoneType}}"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "JSON",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 30 May 2019 08:04:37 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "text/html; charset=utf-8"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "Expires",
+											"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+										},
+										{
+											"key": "Pragma",
+											"value": "no-cache"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										}
+									],
+									"cookie": [],
+									"body": "{\"code\":\"0\",\"res\":{\"remindMsg\":\"\\u975e\\u6cd5\\u8bbf\\u95ee\"}}"
+								},
+								{
+									"name": "筛选免费公开课",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/x-www-form-urlencoded",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": [
+												{
+													"key": "appkey",
+													"value": "{{appkey}}",
+													"type": "text"
+												},
+												{
+													"key": "client_id",
+													"value": "{{client_id}}",
+													"type": "text"
+												},
+												{
+													"key": "cost",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "date",
+													"value": "{{date}}",
+													"type": "text"
+												},
+												{
+													"key": "level",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text"
+												},
+												{
+													"key": "talk_token",
+													"value": "{{talkToken}}",
+													"type": "text"
+												},
+												{
+													"key": "teacher",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "timestamp",
+													"value": "{{timestamp}}",
+													"type": "text"
+												},
+												{
+													"key": "tsign",
+													"value": "{{tsign}}\t",
+													"type": "text"
+												},
+												{
+													"key": "type",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "userId",
+													"value": "{{userId}}",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{host}}/Bbs/schoolIndex?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"Bbs",
+												"schoolIndex"
+											],
+											"query": [
+												{
+													"key": "version",
+													"value": "{{version}}"
+												},
+												{
+													"key": "channel",
+													"value": "{{channel}}"
+												},
+												{
+													"key": "systemVer",
+													"value": "{{systemVer}}"
+												},
+												{
+													"key": "deviceId",
+													"value": "{{deviceId}}"
+												},
+												{
+													"key": "deviceType",
+													"value": "{{deviceType}}"
+												},
+												{
+													"key": "phoneType",
+													"value": "{{phoneType}}"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "JSON",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 30 May 2019 07:17:18 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "text/html; charset=utf-8"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "Expires",
+											"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+										},
+										{
+											"key": "Pragma",
+											"value": "no-cache"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										}
+									],
+									"cookie": [],
+									"body": "{\"code\":\"0\",\"res\":{\"remindMsg\":\"\\u975e\\u6cd5\\u8bbf\\u95ee\"}}"
+								}
+							]
+						},
+						{
+							"name": "预约公开课",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "ba7959d1-1dab-4097-8c1f-0f4b99be5a9e",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"//返回code是1,预约成功",
+											"jsonData=pm.response.json();",
+											"",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).eql(1);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "classId",
+											"value": "{{openClassId}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/OpenClass/follow?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"OpenClass",
+										"follow"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "首页验证课程信息",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "ba7959d1-1dab-4097-8c1f-0f4b99be5a9e",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"//返回code是1,预约成功",
+											"jsonData=pm.response.json();",
+											"",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).eql(1);",
+											"});",
+											"",
+											"//验证信息",
+											"pm.test(\"验证课程ID\",function()",
+											"{",
+											"    classId=pm.environment.get(\"openClassId\");",
+											"    pm.expect(jsonData.res.list[1].open_class_list[0].appointId.toString()).eql(classId);",
+											"});",
+											"",
+											"pm.test(\"验证老师ID\",function()",
+											"{",
+											"    teaId=pm.environment.get(\"teaId\");",
+											"    pm.expect(jsonData.res.list[1].open_class_list[0].teacherID.toString()).eql(teaId);",
+											"});",
+											"",
+											"pm.test(\"验证上课时间\",function()",
+											"{",
+											"    time=pm.environment.get(\"time\");",
+											"    pm.expect(jsonData.res.list[1].open_class_list[0].startTimestamp).eql(Number(time));",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/Experience/schedule?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"Experience",
+										"schedule"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "公开课详情页",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "eb474173-9bcc-4418-983f-7f39a2a29242",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"//返回code是1,预约成功",
+											"jsonData=pm.response.json();",
+											"",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).eql(1);",
+											"});",
+											"",
+											"pm.test(\"验证教室ID\",function()",
+											"{",
+											"    classId=pm.environment.get(\"openClassId\");",
+											"    pm.expect(jsonData.res.classInfo.id).eql(classId);",
+											"});",
+											"",
+											"pm.test(\"验证老师ID\",function()",
+											"{",
+											"    teaId=pm.environment.get(\"teaId\");",
+											"    pm.expect(jsonData.res.classInfo.teaId).eql(teaId);",
+											"});",
+											"",
+											"pm.test(\"验证上课时间\",function()",
+											"{",
+											"    time=pm.environment.get(\"time\");",
+											"    pm.expect(jsonData.res.classInfo.startTime).eql(time);",
+											"});",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "classId",
+											"value": "{{openClassId}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/OpenClass/classDetail?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"OpenClass",
+										"classDetail"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "公开课老师详情",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "eb474173-9bcc-4418-983f-7f39a2a29242",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"//返回code是1,预约成功",
+											"jsonData=pm.response.json();",
+											"",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).eql(1);",
+											"});",
+											"",
+											"pm.test(\"验证老师ID\",function()",
+											"{",
+											"    teaId=pm.environment.get(\"teaId\");",
+											"    pm.expect(jsonData.res.teaInfo.teaId).eql(Number(teaId));",
+											"});",
+											"",
+											"",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "classId",
+											"value": "{{openClassId}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "teaId",
+											"value": "{{teaId}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/OpenClass/classTeacher?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"OpenClass",
+										"classTeacher"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "取消公开课",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "eb474173-9bcc-4418-983f-7f39a2a29242",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"",
+											"jsonData=pm.response.json();",
+											"",
+											"//返回code是1,取消成功",
+											"pm.test(\"返回code是1\",function()",
+											"{",
+											"   pm.expect(jsonData.code).eql(1);",
+											"});",
+											"",
+											"//释放生成的临时变量",
+											"pm.environment.unset(\"openClassId\");",
+											"pm.environment.unset(\"teaId\");",
+											"pm.environment.unset(\"time\");",
+											"",
+											"",
+											"",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "appkey",
+											"value": "{{appkey}}",
+											"type": "text"
+										},
+										{
+											"key": "classId",
+											"value": "{{openClassId}}",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "{{client_id}}",
+											"type": "text"
+										},
+										{
+											"key": "talk_token",
+											"value": "{{talkToken}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "{{timestamp}}",
+											"type": "text"
+										},
+										{
+											"key": "tsign",
+											"value": "{{tsign}}",
+											"type": "text"
+										},
+										{
+											"key": "userId",
+											"value": "{{userId}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/OpenClass/unfollow?version={{version}}&channel={{channel}}&systemVer={{systemVer}}&deviceId={{deviceId}}&deviceType={{deviceType}}&phoneType={{phoneType}}",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"OpenClass",
+										"unfollow"
+									],
+									"query": [
+										{
+											"key": "version",
+											"value": "{{version}}"
+										},
+										{
+											"key": "channel",
+											"value": "{{channel}}"
+										},
+										{
+											"key": "systemVer",
+											"value": "{{systemVer}}"
+										},
+										{
+											"key": "deviceId",
+											"value": "{{deviceId}}"
+										},
+										{
+											"key": "deviceType",
+											"value": "{{deviceType}}"
+										},
+										{
+											"key": "phoneType",
+											"value": "{{phoneType}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
 		}
 	],
 	"auth": {
@@ -5992,7 +8488,27 @@
 					"",
 					"//设置环境变量",
 					"postman.setEnvironmentVariable(\"tsign\", sign);",
-					"*/"
+					"*/",
+					"",
+					"",
+					"",
+					"//格式化约课时间",
+					"function formatDate() {  ",
+					"    var date = new Date();",
+					"    date.setDate(date.getDate()+6);",
+					"    var y = date.getFullYear(); ",
+					"    var m = date.getMonth() + 1;  ",
+					"    m = m < 10 ? ('0' + m) : m; ",
+					"    var d = date.getDate();  ",
+					"    d = d < 10 ? ('0' + d) : d;",
+					"    return y + '-' + m + '-' + d;",
+					"}; ",
+					"var DD=formatDate();",
+					"postman.setEnvironmentVariable(\"date\", DD);",
+					"",
+					"//datestr=formatDate().tostring;",
+					"",
+					""
 				]
 			}
 		},
